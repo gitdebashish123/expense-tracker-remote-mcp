@@ -1,7 +1,7 @@
 import random
 from fastmcp import FastMCP
 
-mcp = FastMCP(name="Expensed MCP Server")
+mcp = FastMCP(name="Simple Calculator MCP")
 
 @mcp.tool()
 def roll_dice(n_dice: int = 1) -> list[int]:
